@@ -15,11 +15,11 @@ from telethon import TelegramClient, events
 from decouple import config
 import logging
 from telethon.sessions import StringSession
-
+from dotenv import load_dotenv
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
 print("Starting...")
-
+load_dotenv(".env", override=True)
 # Basics
 APP_ID = config("APP_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
