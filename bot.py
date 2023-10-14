@@ -23,7 +23,7 @@ load_dotenv(".env", override=True)
 # Basics
 APP_ID = config("APP_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
-SESSION = config("AQAJdzyT251vRumJGKTue2RstE4d-D57jmf9jetLKGWLBlVyh78nviv-ZiZBqihT2R9OVLxtujh3nYJdvulrWvLSvNwzdkxa2tgKYwwbM2btJrAjMIvTeNQW_aP1lzYVdAFuJSSEN8Re1teveTHTHRrLp9BsIBth-GbT6tD77kylrca_xiJqVGbP_qOGuqwrti5LOYjzFDfOWzD3PQPJi3tajeRxe66OSNfIGthBii2-IzXSD0DAp97McNPRr_98Gsr5ARb533iDBW2t_Bc0QWdR61mpSjsxbU3_HijnQTMsmeDmfzmU5aOMJF7QEEh8A-0FXcM9r9ydec4eBk0tepcLAAAAAVxMrfEA")
+SESSION = config("SESSION", default="AQAJdzyT251vRumJGKTue2RstE4d-D57jmf9jetLKGWLBlVyh78nviv-ZiZBqihT2R9OVLxtujh3nYJdvulrWvLSvNwzdkxa2tgKYwwbM2btJrAjMIvTeNQW_aP1lzYVdAFuJSSEN8Re1teveTHTHRrLp9BsIBth-GbT6tD77kylrca_xiJqVGbP_qOGuqwrti5LOYjzFDfOWzD3PQPJi3tajeRxe66OSNfIGthBii2-IzXSD0DAp97McNPRr_98Gsr5ARb533iDBW2t_Bc0QWdR61mpSjsxbU3_HijnQTMsmeDmfzmU5aOMJF7QEEh8A-0FXcM9r9ydec4eBk0tepcLAAAAAVxMrfEA")
 FROM_ = config("FROM_CHANNEL")
 TO_ = config("TO_CHANNEL")
 
